@@ -35,9 +35,6 @@ def format_response(resp, useCallback=False):
     return data
 
 
-question_helper.add_user_response("나 기뻐 (답장 짧게)")
-res = question_helper.send_request()
-
 # 라우트(Route): URL 경로와 함수를 연결
 @app.route("/chatbot_kakao", methods=["POST"])
 def kakao_con():
