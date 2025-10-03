@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -206,11 +205,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-=======
-# 환경 변수 파일
-.env
-
-# Python 캐시 파일
-__pycache__/
-*.pyc
->>>>>>> a55c2e3 (환율 정보 챗봇 - 1)
