@@ -18,20 +18,19 @@ question_helper = chatbot(
 FC = functionCalling()
 answer = ""
 
-def format_response(resp, useCallback=False):
+def format_response(resp):
     data = {
-            "version": "2.0",
-            "useCallback": useCallback,
-            "template": {
-                "outputs": [
-                    {
-                        "simpleText": {
-                            "text": resp
-                        }
-                    }
-                ]
+    "version": "2.0",
+    "template": {
+        "outputs": [
+            {
+                "simpleText": {
+                    "text": resp
+                }
             }
-        }
+        ]
+    }
+}
     return data
 
 
